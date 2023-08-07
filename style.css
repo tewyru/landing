@@ -108,41 +108,6 @@ header ul li a{
     max-width: 800px;
 }
 
-#s2{
-    height: 700px;
-    background: pink;
-    display: inline-block;
-    width: 100%;
-}
-
-#s3{
-    height: 700px;
-    background: paleturquoise;
-    display: inline-block;
-    width: 100%;
-}
-
-#s4{
-    height: 700px;
-    background: pink;
-    display: inline-block;
-    width: 100%;
-}
-
-#s5{
-    height: 700px;
-    background: paleturquoise;
-    display: inline-block;
-    width: 100%;
-}
-
-#s6{
-    height: 700px;
-    background: pink;
-    display: inline-block;
-    width: 100%;
-}
-
 h1{
     margin: 100px;
     text-align: center;
@@ -152,3 +117,294 @@ h1{
 li{
     float: left;
 }
+
+#s2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s2 .pstextbox{
+    position: relative;
+    max-width: 600px;
+    text-align: right;
+    text-align: center;
+    transform: translateX(90%);
+}
+
+#s2 .pstextbox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+#s2 .pstextbox h2 span{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#s2 .pstextbox p{
+    color: #333;
+    font-size: 1.5em;
+}
+
+#s2 .pstextbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#s3 .textbox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    transform: translateX(87%);
+}
+
+#s3 .textbox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+#s3 .textbox h2 span{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#s3 .textbox p{
+    color: #333;
+}
+
+#s3 .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#s3{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s4{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s4 .pstextbox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    transform: translateX(110%);
+}
+
+#s4 .pstextbox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+#s4 .pstextbox h2 span{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#s4 .pstextbox p{
+    color: #333;
+    font-size: 1.5em;
+}
+
+#s4 .pstextbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#s5 .textbox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    transform: translateX(87%);
+}
+
+#s5 .textbox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+#s5 .textbox h2 span{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#s5 .textbox p{
+    color: #333;
+}
+
+#s5 .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#s5{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s6 .pstextbox{
+    position: absolute;
+    max-width: 600px;
+    text-align: center;
+    transform: translateX(205%);
+}
+
+#s6 .pstextbox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+#s6 .pstextbox h2 span{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#s6 .pstextbox p{
+    color: #333;
+}
+
+#s6 .pstextbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+#s6{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s4 .pstextbox .testiboxcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#s4 .pstextbox .reviewbox{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;cursor: pointer;
+}
+
+#s4 .pstextbox .profile .pfp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#s4 .pstextbox .profile .pfp .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#s4 .pstextbox .profile{
+    display: flex;
+    align-items: center;
+}
+
+#s4 .pstextbox .profile .username{
+    display: flex;
+    flex-direction: column;
+}
+
+#s4 .pstextbox .profile .username strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+#s4 .pstextbox .profile .username span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+
+.boxtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.userreview p{
+    text-align: left;
+}
+
+.testiboxcontainer:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
